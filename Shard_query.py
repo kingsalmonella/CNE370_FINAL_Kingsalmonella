@@ -1,6 +1,6 @@
 import pymysql
 
-db = pymysql.connect(host="192.168", port=4000, user="maxuser", passwd="maxpwd")
+db = pymysql.connect(host="192.168.100.19", port=4000, user="maxuser", passwd="maxpwd")
 cursor = db.cursor()
 
 print('The last 10 rows of zipcodes_one are:')
